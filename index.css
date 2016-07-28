@@ -1,0 +1,70 @@
+/* Main */
+
+.main img {
+    height: 25px;
+    opacity: 0.8;
+}
+
+
+#msg {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+    font-variant: small-caps;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 250px;
+    opacity: 0.6;
+    color: #99AAAA;
+}
+
+#sub_msg {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+    font-variant: small-caps;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+    opacity: 0.6;
+    color: #99AAAA;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+
+/* Footer & Nav Pages */
+#footer {
+    bottom:0px;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position:fixed;
+    padding-top: 10px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+    color: #99AAAA;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px; 
+    border-radius: 25px;
+    border: 1px solid #99AAAA;
+    padding: 0 5px 2px 5px;
+}
+
+.nav a:nth-child(3){
+    background-color: #99AAAA;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #99AAAA;
+
+}

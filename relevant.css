@@ -1,0 +1,247 @@
+/* Experience Header */
+
+.experience h1 {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Lato;
+    font-size: 60px;
+    letter-spacing: -3px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.experience h6 {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Verdana;
+    font-size: 16px;
+    letter-spacing: -1.5px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;	
+    margin-top: -55px;
+}
+
+
+/* CodePath  */ 
+
+.codepath img {
+	display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.codepath {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+	margin-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.codepath img {
+    width: 100%;
+    padding: 0;
+}
+
+.codepath > div {
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+    color: #BBCCCC;
+}
+.codepath:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.codepath > div div {
+    padding: 10px 10px;
+}
+.codepath h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    margin-top: -5px;
+	font-family: Lato;
+	text-align: center;
+
+}
+
+.codepath p {
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+/* Craftsman Ave */
+.craftsman img {
+	display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.craftsman {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+	margin-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.craftsman img {
+    width: 100%;
+    padding: 0;
+}
+
+.craftsman > div {
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+    color: #BBCCCC;
+}
+.craftsman:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.craftsman > div div {
+    padding: 10px 10px;
+}
+.craftsman h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    margin-top: -5px;
+	font-family: Lato;
+	text-align: center;
+
+}
+
+.craftsman p {
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+/* Code Interactive */
+.ci img {
+	display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.ci {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+	margin-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ci img {
+    width: 100%;
+    padding: 0;
+}
+
+.ci > div {
+    background-color: rgba(0,0,0,0.75);
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: opacity 0.3s linear;
+    text-shadow: #000 1px 1px 0;
+    color: #BBCCCC;
+}
+.ci:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.ci > div div {
+    padding: 10px 10px;
+}
+.ci h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    margin-top: -5px;
+	font-family: Lato;
+	text-align: center;
+
+}
+
+.ci p {
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+
+
+/* Footer & Nav Pages */
+#footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+    color: #99AAAA;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px; 
+    border-radius: 25px;
+    border: 1px solid #99AAAA;
+    padding: 0 5px 0 5px;
+}
+
+.nav a:nth-child(3){
+    background-color: #99AAAA;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #99AAAA;
+
+}

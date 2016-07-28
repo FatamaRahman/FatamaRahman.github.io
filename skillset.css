@@ -1,0 +1,349 @@
+
+
+/* Load animation */
+
+@-webkit-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@-moz-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+
+
+/* Container */
+
+.progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+}
+
+/* Circles */
+
+.progress>li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #99AAAA;
+  opacity: 0.6;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
+  height: 100px;
+  width: 100px;
+}
+
+.progress>li:before {
+  content: attr(data-name);
+  position: absolute; 
+  width: 100%;
+  left: 33%;
+  bottom: -1rem;
+  font-weight: 200;
+  margin: auto;
+}
+
+.progress>li:after {
+  content: attr(data-percent);
+  position: absolute; 
+  width: 100%;
+  top: 3.0rem;
+  left: 33%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.progress svg {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+/*
+.container
+{  
+    height: 100%;
+    display: table-cell;   
+    vertical-align: middle;    
+}
+.cent
+{
+    height:50px;
+    width:50px;
+    background-color:black;      
+}
+*/
+
+.progress svg:nth-child(2) {
+  position: absolute; 
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: rgba(255, 255, 255, 0.9);
+  -webkit-animation: load 4s;
+  -moz-animation: load 4s;
+  -o-animation: load 4s;
+  animation: load 4s;
+}
+
+
+/*---------------------------------------------*/
+      /* Load animation */
+
+/*@-webkit-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@-moz-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+*/
+/* Container */
+/*
+.progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+/* Item */
+/*
+.progress>li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93A2AC;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
+}
+
+.progress>li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: 3rem;
+  font-weight: 400;
+}
+
+.progress>li:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.progress svg {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: rgba(255, 255, 255, 0.9);
+  -webkit-animation: load 4s;
+  -moz-animation: load 4s;
+  -o-animation: load 4s;
+  animation: load 4s;
+} 
+
+/*---------------------------------------------*/
+
+
+
+/* Header */
+.header h1 {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Lato;
+    font-size: 40px;
+    letter-spacing: -3px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: -20px;
+    text-align: center;
+
+}
+
+/* Tools */
+.tools {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Verdana;
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.tools h6:first-child {
+  font-size: 23px;
+  font-family: Lato;
+}
+
+.tools h6:nth-child(2) {
+  margin-top: -55px;
+  margin-bottom: -40px;
+}
+
+/* Frameworks */
+.framelibs {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Verdana;
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.framelibs h6:first-child {
+  font-size: 23px;
+  font-family: Lato;
+}
+
+.framelibs h6:nth-child(2) {
+  margin-top: -55px;
+  margin-bottom: -40px;
+}
+
+/* Courses */
+.courses, .currentcourses {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Verdana;
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.courses h6:first-child {
+  font-size: 23px;
+  font-family: Lato;
+}
+
+.courses h6:nth-child(2) {
+  margin-top: -55px;
+  margin-bottom: -40px;
+}
+
+.currentcourses h6:first-child {
+  font-size: 23px;
+  font-family: Lato;
+}
+
+.currentcourses h6:nth-child(2) {
+  margin-top: -55px;
+  margin-bottom: -40px;
+}
+
+.bootcamps {
+    color: #99AAAA;
+    font-weight: 100;
+    font-family: Verdana;
+    font-size: 18px;
+    letter-spacing: -1px;
+    -webkit-text-stroke-color: rgba(255,255,255,1);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+
+.bootcamps h6:first-child {
+  font-size: 23px;
+  font-family: Lato;
+}
+
+.bootcamps h6:nth-child(2) {
+  margin-top: -55px;
+  margin-bottom: -40px;
+}
+
+/* Footer & Nav Pages */
+#footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+    color: #99AAAA;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px; 
+    border-radius: 25px;
+    border: 1px solid #99AAAA;
+    padding: 0 5px 0 5px;
+}
+
+.nav a:nth-child(3){
+    background-color: #99AAAA;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #99AAAA;
+
+}
