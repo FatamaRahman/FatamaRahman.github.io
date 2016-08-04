@@ -5,15 +5,6 @@ var showText = function (target, message, index, interval) {
   }
 }
 
-// $(function () {
-
-// 	showText("#sub_msg", "& I am a 21 year old aspiring to be a web developer.", 0, 100);
-
-// });
-
-// function sub_msg() { 
-//     document.getElementById("sub_msg").style.display = "inline"; 
-// }
 
 $(document).ready(function() {
 	$(function () {
@@ -35,6 +26,6 @@ $(document).ready(function() {
     	document.getElementById("sub_msg").style.display = "inline"; 
 	}
 
-	 $('#footer').hide();
-	 $('#footer').delay(1000).fadeIn(6000);
+	 $('.footer').hide();
+	 $('.footer').delay(1000).fadeIn(6000);
 });
