@@ -3,34 +3,31 @@
 body {
   width: 100%;
   height: 100%;
+  background-color: #FFFFFF;
 }
 
 .description p {
-    color: #99AAAA;
+    color: #BBCCCC;
     width: 96%;
     font-weight: 100;
-    font-family:Verdana;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     letter-spacing: -2px;
+    padding: 10px 10px 0px 10px;
+	  margin: 45px auto 0px auto; 
+	  text-align: center; 
     -webkit-text-stroke-color: rgba(255,255,255,1);
     -webkit-text-stroke-width: 0.5px;
     -webkit-font-smoothing: antialiased;
-/*    border-radius: 25px;
-    border: 1px dashed #99AAAA;  */
-    padding: 10px 10px 0px 10px;
-	margin: 45px auto 0px auto; 
-	text-align: center; 
-  opacity: 0.6;
 }
 
 h1 {
-  color: #99AAAA;
+  color: #BBCCCC;
   width: 96%;
   font-weight: 100;
   font-size: 60px;
   text-align: center;
   margin: auto;
-
   padding-top: 75px;
 }
 
@@ -38,12 +35,11 @@ h1 {
 /* Hellos */
 
 .content {
-  color: #99AAAA;
+  color: #BBCCCC;
   line-height: 100px;
   height: 160px;
   opacity: 1;
   overflow: hidden;
-  font-weight: 100;
   font-weight: 100;
   font-family:Verdana;
   font-size: 20px;
@@ -53,7 +49,7 @@ h1 {
     -webkit-text-stroke-color: rgba(255,255,255,1);
     -webkit-text-stroke-width: 0.5px;
     -webkit-font-smoothing: antialiased;
-    margin-bottom: -160px;
+    margin-bottom: -200px;
 }
 
 .visible {
@@ -61,22 +57,9 @@ h1 {
   height: 40px;
 }
 
-/*
-.visible:before {
-  content: '[';
-  left: 0;
-  line-height: 40px;
-}
-.visible:after {
-  content: ']';
-  position: absolute;
-  right: 0;
-  line-height: 40px;
-}
-*/
 .visible:after, .visible:before {
   top: 0;
-  color: #779988;
+  color: #BBCCCC;
   font-size: 12px;
   -webkit-animation: 2s linear 0s normal none infinite opacity;
           animation: 2s linear 0s normal none infinite opacity;
@@ -119,101 +102,34 @@ ul li {
     opacity: 1;
   }
 }
-/*
-@-webkit-keyframes change {
-  0%, 12%, 100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  17%,29% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
-  }
-  34%,46% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  51%,63% {
-    -webkit-transform: translateY(-75%);
-            transform: translateY(-75%);
-  }
-  68%,80% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  85%,97% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
-}
-*/
+
 
 @keyframes change {
-  0%, 12%, 100% {
+  0%, 15%, 100% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  17%,29% {
+  18%,35% {
     -webkit-transform: translateY(-25%);
             transform: translateY(-25%);
   }
-  34%,46% {
+  45%,48% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  49%,63% {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  49%,65% {
+  66%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,95% {
     -webkit-transform: translateY(-75%);
             transform: translateY(-75%);
   }
-  68%,80% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  85%,97% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-  }
 }
-
-/* Footer & Nav Pages */
-#footer {
-    position: absolute;
-    bottom:0;
-    width:100%;
-    height:40px;   /* Height of the footer */
-    background-color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.nav a {
-    text-decoration: none;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
-    color: #99AAAA;
-    text-align: center;
-    display: inline-block;
-    margin-right: 20px; 
-    border-radius: 25px;
-    border: 1px solid #99AAAA;
-    padding: 0 5px 0 5px;
-}
-
-.nav a:nth-child(3){
-    background-color: #99AAAA;
-    color: white;
-}
-
-.nav a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #99AAAA;
-
-}
-
-
-
 
 @keyframes drawLine {
   100% {
@@ -225,12 +141,14 @@ ul li {
  /* svg */
 
  .nyc-line {
-  stroke: #99AAAA;
+  stroke: #BBCCCC;
   stroke-width: 2;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000;
   animation: drawLine 20s linear forwards;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 #nyc-target {
@@ -241,4 +159,25 @@ ul li {
 	-moz-transform: translate(-10px,-100px); /* Firefox */
 }
 
+/* Arrows */
+.arrows {
+  text-align: center;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 28px;   /* Height of the footer */
+  bottom: 0px;
+}
 
+.arrows div {
+  display: inline-block;
+  margin-top: -80px;
+}
+
+.backarrow img,
+.nextarrow img {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+}
