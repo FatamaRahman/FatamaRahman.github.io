@@ -31,8 +31,8 @@ $(document).ready(function() {
   window.addEventListener("scroll", callbackFunc);
 
 
-  $('#footer').hide();
-  $('#footer').delay(1000).fadeIn(1500);
+   $('.arrows').hide();
+   $('.arrows').delay(1000).fadeIn(2500);
 
 
 })();
