@@ -11,8 +11,8 @@ var showText = function (target, message, index, interval) {
     	document.getElementById("sub_msg").style.display = "inline"; 
 	}
 
-	 $('.footer').hide();
-	 $('.footer').delay(1000).fadeIn(6000);
+	 $('.arrows').hide();
+	 $('.arrows').delay(1000).fadeIn(6000);
 
 });
 
