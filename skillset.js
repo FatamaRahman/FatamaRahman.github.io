@@ -19,23 +19,23 @@
 	 $('.progress').delay(1000).fadeIn(1000);
 
 	 $('.tools').hide();
-	 $('.tools').delay(2000).fadeIn(2000);
+	 $('.tools').delay(1500).fadeIn(1500);
 
 
 	 $('.framelibs').hide();
-	 $('.framelibs').delay(3000).fadeIn(3000);
+	 $('.framelibs').delay(2000).fadeIn(2000);
 
 	 $('.courses').hide();
-	 $('.courses').delay(4000).fadeIn(4000);
+	 $('.courses').delay(2500).fadeIn(2500);
 
 	 $('.currentcourses').hide();
-	 $('.currentcourses').delay(5000).fadeIn(5000);
+	 $('.currentcourses').delay(3000).fadeIn(3000);
 
 	 $('.bootcamps').hide();
-	 $('.bootcamps').delay(6000).fadeIn(6000);
+	 $('.bootcamps').delay(3500).fadeIn(3500);
 
-	 $('#footer').hide();
-	 $('#footer').delay(6500).fadeIn(6500);
+	 $('.footer').hide();
+	 $('.footer').delay(1000).fadeIn(6000);
 
 
 });
