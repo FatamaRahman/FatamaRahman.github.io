@@ -100,7 +100,7 @@ next();
 
 $(document).ready(function() {
 
-  $('#footer').hide();
-  $('#footer').delay(2000).fadeIn(2000);
+   $('.arrows').hide();
+   $('.arrows').delay(1000).fadeIn(2500);
 
 });
