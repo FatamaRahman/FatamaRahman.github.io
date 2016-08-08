@@ -34,8 +34,8 @@
 	 $('.bootcamps').hide();
 	 $('.bootcamps').delay(3500).fadeIn(3500);
 
-	 $('.footer').hide();
-	 $('.footer').delay(1000).fadeIn(6000);
+	 $('.arrows').hide();
+	 $('.arrows').delay(1000).fadeIn(6000);
 
 
 });
