@@ -1,247 +1,211 @@
-/* Experience Header */
-
-.experience h1 {
-    color: #99AAAA;
-    font-weight: 100;
-    font-family: Lato;
-    font-size: 60px;
-    letter-spacing: -3px;
-    -webkit-text-stroke-color: rgba(255,255,255,1);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.experience h6 {
-    color: #99AAAA;
-    font-weight: 100;
-    font-family: Verdana;
-    font-size: 20px;
-    letter-spacing: -1.5px;
-    -webkit-text-stroke-color: rgba(255,255,255,1);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;	
-    margin-top: -55px;
+body {
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
 }
 
 
-/* CodePath  */ 
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.codepath img {
-	display: block;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.codepath {
-    position: relative;
-    width: 500px;
-    height: 100px;
-    overflow: hidden;
-    margin: 0 auto;
-	margin-top: 40px;
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding-bottom: 5px;
+.intro {
+  padding: 20px 0;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
+  letter-spacing: -2px;
 }
 
-.codepath img {
-    width: 100%;
-    padding: 0;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.codepath > div {
-    background-color: rgba(0,0,0,0.75);
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    -webkit-transition: opacity 0.3s linear;
-    text-shadow: #000 1px 1px 0;
-    color: #BBCCCC;
-}
-.codepath:hover > div {
-    display: block;
-    opacity: 1.0;
-}
-.codepath > div div {
-    padding: 10px 10px;
-}
-.codepath h2 {
-    font-size: 1.2em;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: -5px;
-    margin-top: -5px;
-	font-family: Lato;
-	text-align: center;
-
-}
-
-.codepath p {
-    margin-bottom: 10px;
-    font-family: Lato;
-}
-
-/* Craftsman Ave */
-.craftsman img {
-	display: block;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.craftsman {
-    position: relative;
-    width: 500px;
-    height: 100px;
-    overflow: hidden;
-    margin: 0 auto;
-	margin-top: 40px;
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.craftsman img {
-    width: 100%;
-    padding: 0;
-}
-
-.craftsman > div {
-    background-color: rgba(0,0,0,0.75);
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    -webkit-transition: opacity 0.3s linear;
-    text-shadow: #000 1px 1px 0;
-    color: #BBCCCC;
-}
-.craftsman:hover > div {
-    display: block;
-    opacity: 1.0;
-}
-.craftsman > div div {
-    padding: 10px 10px;
-}
-.craftsman h2 {
-    font-size: 1.2em;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: -5px;
-    margin-top: -5px;
-	font-family: Lato;
-	text-align: center;
-
-}
-
-.craftsman p {
-    margin-bottom: 10px;
-    font-family: Lato;
-}
-
-/* Code Interactive */
-.ci img {
-	display: block;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.ci {
-    position: relative;
-    width: 500px;
-    height: 100px;
-    overflow: hidden;
-    margin: 0 auto;
-	margin-top: 40px;
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.ci img {
-    width: 100%;
-    padding: 0;
-}
-
-.ci > div {
-    background-color: rgba(0,0,0,0.75);
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    -webkit-transition: opacity 0.3s linear;
-    text-shadow: #000 1px 1px 0;
-    color: #BBCCCC;
-}
-.ci:hover > div {
-    display: block;
-    opacity: 1.0;
-}
-.ci > div div {
-    padding: 10px 10px;
-}
-.ci h2 {
-    font-size: 1.2em;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: -5px;
-    margin-top: -5px;
-	font-family: Lato;
-	text-align: center;
-
-}
-
-.ci p {
-    margin-bottom: 10px;
-    font-family: Lato;
+h1 {
+  font-size: 2.5rem;
+  color: #BBCCCC;
 }
 
 
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Footer & Nav Pages */
-#footer {
-    position: absolute;
-    bottom:0;
-    width:100%;
-    height:40px;   /* Height of the footer */
-    background-color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.timeline ul {
+  padding: 30px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #BBCCCC;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #BBCCCC;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #BBCCCC transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #BBCCCC;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 18px; 
+  font-variant: small-caps;
+  text-align: center;
+  color: #39313e;
+}
+
+time {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;  
+  text-align: center;
+  color: #39313e;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;  
 }
 
 
-.nav a {
-    text-decoration: none;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;    
-    color: #99AAAA;
-    text-align: center;
-    display: inline-block;
-    margin-right: 20px; 
-    border-radius: 25px;
-    border: 1px solid #99AAAA;
-    padding: 0 5px 0 5px;
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
 }
 
-.nav a:nth-child(3){
-    background-color: #99AAAA;
-    color: white;
+.timeline ul li.in-view::after {
+  background: #39313e;
 }
 
-.nav a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #99AAAA;
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
 
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #BBCCCC transparent transparent;
+  }
+}
+
+/* Arrows */
+.arrows {
+  text-align: center;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 28px;   /* Height of the footer */
+  bottom: 0px;
+}
+
+.arrows div {
+  display: inline-block;
+  margin-top: -80px;
+}
+
+.backarrow img,
+.nextarrow img {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px 0 5px;
 }
