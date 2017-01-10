@@ -16,7 +16,7 @@ $(document).ready(function() {
 	$(function () {
 		var delay = 2200;
 		setTimeout(function() {
-			showText("#sub_msg", "& I'm an aspiring web developer.", 0, 50);
+			showText("#sub_msg", "& this website is under construction as of Jan 9, 2017 :)", 0, 50);
 		}, delay)
 
 	});
