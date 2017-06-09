@@ -8,7 +8,15 @@ body {
 
 }
 
-img {
+.header img {
     display: block;
     margin: auto;
+}
+
+
+
+.nav {
+	margin: 0 auto;
+    text-align: center;
+    width: 800px;
 }

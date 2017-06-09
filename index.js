@@ -6,15 +6,13 @@ var showText = function (target, message, index, interval) {
 }
 
 
-$(window).load(function() {
+$(document).ready(function() {
 	$(function () {
-		var delay = 2000;
-  		showText("#msg", "Hi, I'm Fatama", 0, 50);
-	});
+		var delay = 2200;
+		setTimeout(function() {
+			showText("#msg", "Hi, I'm Fatama Rahman", 0, 100);
+		}, delay)
 
-	$(function () {
-		var delay = 2000;
-  		showText("#sub_msg", "I'm working on this website, please visit soon!", 0, 20);
 	});
 
 	function sub_msg() { 
@@ -22,6 +20,6 @@ $(window).load(function() {
     	document.getElementById("sub_msg").style.display = "inline"; 
 	}
 
-	 $('.body').hide();
-	 $('.body').delay(2000).fadeIn(3000);
+	 $('.footer').hide();
+	 $('.footer').delay(1000).fadeIn(7000);
 });
