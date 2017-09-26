@@ -52,8 +52,6 @@ nav ul li {
   overflow: hidden;
   opacity: 0;
   display: none;
-        text-decoration-line: none;
-      text-decoration: none;
 }
 
 nav li a {
@@ -64,13 +62,11 @@ nav li a {
   font-family: 'Work sans', sans-serif;
   font-weight: 300;
   letter-spacing: 4px;
-  text-decoration: none;
   display: block;
   text-align: center;
   font-size: 0.9rem;
   opacity: 0;
-        text-decoration-line: none;
-      text-decoration: none;
+
 }
 
 nav li a:before {
@@ -415,7 +411,6 @@ Animation keyframes
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
-  text-decoration: none;
   position: absolute;
   z-index: 10;
   top: 50px;
@@ -460,15 +455,11 @@ html, body {
 html {
     display: table;
     margin: auto;
-          text-decoration-line: none;
-      text-decoration: none;
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
-          text-decoration-line: none;
-      text-decoration: none;
 }
 
 h1 {
@@ -483,30 +474,23 @@ li {
   font-family: 'Helvetica Neue';
     font-weight: lighter;
       font-size: 20px;
-      text-decoration-line: none;
-      text-decoration: none;
 }
 
 ul {
-  text-decoration: none;
 }
 
 a:link {
-    text-decoration: none;
     color: #85BDC0;
 }
 
 a:visited {
-    text-decoration: none;
     color: #85BDC0;
 }
 
 a:hover {
-    text-decoration: none;
     color: #85BDC0;
 }
 
 a:active {
-    text-decoration: none;
     color: #85BDC0;
 }
