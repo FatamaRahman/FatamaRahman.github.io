@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fatama Rahman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="fordham.css">
+</head>
+
+<body>
+
+<div class="header">
+  <h1> Fordham University Website </h1>
+  <p> The official website for Fordham University. </p>
+  <hr>
+</div>
+
+<div class="container">
+
+  <h1> Overview </h1>
+  <p> In 2015, the redesign of Fordham University's official website had begun.
+    Through detailed analysis of user flows and surveys, we realized that the
+    website had to be redone so that users can navigate through the site much
+    more efficiently. Seeing as how the legacy site looked and felt outdated,
+    the university redesigned the website into more of a modern PHP driven web
+    page. We used an external analytics site to measure how long users were on
+    a page, where the pages were terminated, where people pressed back, etc.</p>
+
+  <h1> My Role</h1>
+  <p>As the Web Intern for the Online Communications team, I helped create IAs,
+    create templates for homepages, document pages, profile pages, news feeds,
+    event pages, etc. I dynamically incorporated updates into CMS so that
+    university faculty could update their pages themselves. I also focused on
+    making sure that all I programmed a tutorial for all new Jadu users that
+    demo'd the entire site to a new user in a QA environment. I also created a
+    style guide so that future interns and web engineers would easily be able to
+    identify colors and fonts. Because we were a university, we had a very
+    strict branding identity to stick to.</p>
+
+    <h1> Skills Used </h1>
+    <p> HTML, CSS, Javascript, PHP, CMS, Jadu, Adobe Photoshop and Adobe Illustrator. </p>
+
+  <h1> Goals </h1>
+  <p> We had been told by the Admissions office that more and more perspective
+  students and families kept calling for information that was already available
+  to them on the university website. However, many parents had said that they
+  couldn't find the information they were looking for. Not only did we want to
+  modernize and condense information, but make the information more easily
+  accessible. Being a student myself, I had first hand experience with difficulties
+  navigating the platform. I've heard things like, "I can't find the requirements for my
+  major.", "Where's information on financial aid?", ""</p>
+
+  <h1> Legacy Site </h1>
+  <p> This are some examples from the legacy website. </p>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/legacy1.png" style="width:100%">
+  <img class="mySlides" src="images/legacy2.png" style="width:100%">
+  <img class="mySlides" src="images/legacy3.png" style="width:100%">
+  <img class="mySlides" src="images/legacy4.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<h1 style="margin-top: 40px;"> Rebranded Site </h1>
+<p> Here are some examples from our new site. </p>
+
+
+<img src="images/new1.png" style="width:80%; padding-left: 20%; padding-bottom: 100px;">
+<img src="images/new2.png" style="width:80%; padding-left: 20%; padding-bottom: 100px;">
+<img src="images/new3.png" style="width:80%; padding-left: 20%; padding-bottom: 100px;">
+<img src="images/new4.png" style="width:80%; padding-left: 20%; padding-bottom: 100px;">
+</body>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</html>
