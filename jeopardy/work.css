@@ -1,0 +1,16 @@
+html {
+  font-family: "leitura-news","Georgia","Times New Roman",serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.tabs-details {
+  top: -1px;
+}
+
+li {
+  font-size: 20px;
+}
+
